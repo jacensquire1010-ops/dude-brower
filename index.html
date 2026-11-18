@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DUDE BROWSER</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="app">
+  <header class="titlebar">
+    <div class="brand"><div class="logo">D</div><span>DUDE <b>BROWSER</b></span></div>
+    <div class="window-label">FAST. CLEAN. YOURS.</div>
+    <div class="win-controls"><button aria-label="Minimize">−</button><button aria-label="Maximize">□</button><button aria-label="Close">×</button></div>
+  </header>
+  <div class="tabsbar"><div id="tabs" class="tabs"></div><button id="newTab" class="add-tab" title="New tab">＋</button></div>
+  <nav class="toolbar">
+    <button id="back" title="Back">←</button><button id="forward" title="Forward">→</button><button id="reload" title="Reload">↻</button><button id="home" title="Home">⌂</button>
+    <div class="address-wrap"><span class="lock">⌕</span><input id="address" spellcheck="false" placeholder="Search Google or enter a website address"><button id="bookmark" title="Bookmark this page">☆</button><button id="go">GO</button></div>
+    <button id="proxyBadge" class="proxy-badge"><i></i><span>Checking proxy…</span></button>
+    <button id="menuBtn" title="Menu">⋯</button>
+  </nav>
+  <div id="progress" class="progress"><span></span></div>
+  <main id="workspace"></main>
+  <div id="menu" class="menu hidden">
+    <button data-action="bookmarks">★ Bookmarks</button><button data-action="history">◷ History</button>
+    <button data-action="downloads">↓ Downloads</button><button data-action="settings">⚙ Settings</button>
+    <button data-action="games">🎮 Game tabs</button>
+  </div>
+  <footer><span>DUDE BROWSER <small>v1.0</small></span><span id="footerStatus">Ready</span><span>Built-in arcade <b>●</b></span></footer>
+</div>
+<script src="/app.js"></script>
+</body></html>
