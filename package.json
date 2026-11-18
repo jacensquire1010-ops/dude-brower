@@ -1,0 +1,9 @@
+{
+  "name": "dude-browser",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DUDE BROWSER - desktop-style browser shell with built-in arcade and a guarded backend fetch relay",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": { "express": "^4.21.2" },
+  "engines": { "node": ">=18" }
+}
